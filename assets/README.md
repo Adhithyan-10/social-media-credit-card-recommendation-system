@@ -1,123 +1,78 @@
 # Project Assets
 
-This directory contains the visual resources and supporting materials used in the **TrustCard: AI-Powered Social Media-Based Credit Card Recommendation System**.
+This directory contains the visual resources and design artifacts used in the **TrustCard: AI-Powered Social Media-Based Credit Card Recommendation System**.
 
 ---
 
 # System Architecture
 
-![System Architecture](./sys.png)
+![System Architecture](./sys.jpeg)
 
-The system architecture illustrates the complete workflow of the TrustCard platform, including:
+The system architecture illustrates the complete design of the TrustCard platform.
 
-* Social media data collection
-* Data preprocessing and anonymization
-* Trust and affluence signal extraction
-* Score aggregation and creditworthiness evaluation
-* Bias mitigation and fairness validation
-* Credit card recommendation generation
-* Feedback and continuous learning pipeline
+Key components include:
 
-This architecture serves as the foundation of the overall system design.
+* Data Collection Layer
+* Data Preprocessing Layer
+* Feature Extraction Layer
+* Trust & Affluence Scoring
+* Machine Learning Classification
+* Fairness & Bias Mitigation
+* Privacy & Compliance Validation
+* Recommendation Dashboard
+* Secure Storage & Audit Logging
 
----
-
-# Recommendation Workflow
-
-![Workflow Diagram](./workflow.png)
-
-The workflow diagram demonstrates the end-to-end recommendation process from user consent to final credit card recommendation.
-
-Key stages include:
-
-* User consent and privacy agreement
-* Social, behavioral, and network signal collection
-* Signal preprocessing and feature engineering
-* Trust, affluence, responsibility, and network scoring
-* Composite creditworthiness index generation
-* Fairness validation and bias mitigation
-* Credit card category recommendation
-* Feedback-driven model improvement
+This architecture serves as the foundation for the implementation of the recommendation system.
 
 ---
 
 # Technology Stack
 
-![Technology Stack](./tech.png)
+![Technology Stack](./tech.jpeg)
 
-The technology stack defines the tools and frameworks planned for system implementation.
+The technology stack outlines the tools and frameworks selected for developing the TrustCard platform.
 
 Major categories include:
 
-### Frontend
+* Programming Languages
+* Web Frameworks
+* Machine Learning Libraries
+* NLP & Computer Vision Tools
+* Databases & Storage Solutions
+* Privacy & Security Frameworks
+* Cloud & DevOps Infrastructure
+* Monitoring & Observability
 
-* React.js
-* Next.js
-* TypeScript
-
-### Backend
-
-* FastAPI
-* Node.js
-* Django Admin
-
-### Machine Learning
-
-* Scikit-Learn
-* XGBoost
-* PyTorch
-* Hugging Face Transformers
-
-### NLP & Computer Vision
-
-* spaCy
-* NLTK
-* BERT/RoBERTa
-* OpenCV
-
-### Databases
-
-* PostgreSQL
-* MongoDB
-* Redis
-* Pinecone
-
-### Cloud & DevOps
-
-* Docker
-* Kubernetes
-* Terraform
-* GitHub Actions
-* AWS / GCP
+The stack has been chosen to support scalability, explainability, fairness, and secure deployment.
 
 ---
 
 # Frontend Prototype
 
-![Frontend Preview](./pre.png)
+![Frontend Prototype](./pre.png)
 
-The TrustCard frontend prototype demonstrates the planned user experience of the platform.
+The frontend prototype demonstrates the planned user experience of the TrustCard platform.
 
-Implemented UI concepts include:
+Highlighted features include:
 
-* Modern fintech-inspired interface
-* Trust score visualization dashboard
-* Behavioral signal insights
-* Credit card recommendation cards
-* Privacy-focused onboarding experience
+* Trust score visualization
+* Behavioral intelligence dashboard
+* Credit card recommendation interface
+* Modern fintech-inspired user experience
+* Privacy-focused design
 * Explainable recommendation presentation
 
-This prototype serves as the initial user-facing design for future frontend development.
+This prototype represents the initial user-facing design of the project.
 
 ---
 
 ## Project Status
 
-✅ Research & Problem Definition Completed
+✅ Problem Statement Finalized
 
 ✅ System Architecture Designed
 
-✅ Workflow & Technology Stack Finalized
+✅ Technology Stack Finalized
 
 ✅ Frontend Prototype Completed
 
@@ -128,4 +83,3 @@ This prototype serves as the initial user-facing design for future frontend deve
 ---
 
 Part of the TrustCard Project.
-
